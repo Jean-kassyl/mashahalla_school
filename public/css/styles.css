@@ -9,7 +9,7 @@
     height: 100vh;
     background-image: url("../images/girl-smile.jpg");
     background-repeat: no-repeat;
-    background-size: 1200px;
+    background-size: 80%;
     background-position: right center;
     position: relative;
 }
@@ -29,7 +29,7 @@
 .hero_text {
     position: relative;
     left: -50%;
-    transform: translateY(65%);
+    transform: translateY(55%);
     background-color: rgba(255, 255, 255, 0.7);
     padding: 40px 50px;
     border-radius: 10px;
@@ -41,7 +41,7 @@
 }
 .custom-img {
     border-radius: 12px;
-    width: 400px;
+    width: 500px;
     height: auto;
 }
 
@@ -63,4 +63,79 @@
 .d-flex-gap-12 {
     display: flex;
     gap: 12px;
+}
+
+.section_1-text {
+    padding: 50px 20px;
+}
+
+/* section 2 */
+.section_2 {
+    background-color: indianred;
+    padding: 3% 12%;
+}
+.section_2-text {
+    color: white;
+}
+
+.section_2-images {
+    display: flex;
+    position: relative;
+   
+}
+.img1 {
+    width: 260px;
+    height: 260px;
+    border-radius: 50%;
+    position: relative;
+    left: 8%;
+    top: 20px;
+  
+}
+
+.img2 {
+    width: 260px;
+    height: 260px;
+    border-radius: 50%;
+    
+}
+
+/* carousel */
+.positioner {
+    width: 40%;
+    margin-inline: auto;
+}
+
+.testimony {
+    background-color: indianred;
+    color: whitesmoke;
+    padding: 30px 50px;
+    border-radius: 12px;
+    transition: all .5s ease;
+}
+
+.parent_img {
+    border-radius: 50%;
+}
+
+.card-header {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+.mover {
+    bottom: 2px;
+}
+
+/* section 3 */
+
+.section_3 {
+    padding: 50px 0;
+}
+
+.section_3 h3{
+    text-align: center;
+    margin-bottom: 10px 0;
+    
 }
